@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_revatipavan_CKA_Preparation_1715631594275-pr-trigger-input-set
+  identifier: Build_revatipavan_CKA_Preparation_1715631594275prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_revatipavan_CKA_Preparation_1715631594275
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
